@@ -7,7 +7,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import Routes from "./Routes"
 
 import { ServiceProvider, ServiceManager, HttpServiceProvider, AuthServiceProvider } from 'services';
-import { OAUTH_SETTINGS } from 'common/constants';
+import OAUTH_SETTINGS from 'common/constants';
 
 const serviceManager = new ServiceManager();
 serviceManager.registerService("http.service",HttpServiceProvider);
