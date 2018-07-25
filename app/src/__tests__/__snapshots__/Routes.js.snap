@@ -559,6 +559,10 @@ exports[`ConnectedRoutes renders mounted root route 1`] = `
 exports[`Routes component renders correctly 1`] = `
 <Switch>
   <Route
+    path="/admin"
+    render={[Function]}
+  />
+  <Route
     path="/"
     render={[Function]}
   />

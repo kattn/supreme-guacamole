@@ -1,2 +1,2 @@
-export * from './CommiteeApplication.js';
+export * from './Application.js';
 export * from './application.service.js';
